@@ -98,23 +98,23 @@
     function generateButtonParamiters()
         b_display = {
             index = 0, click_function = 'customSet', function_owner = self, label = '',
-            position = {0,0.1,0}, width = 600, height = 600, font_size = 500
+            position = {0,0.1,0}, width = 600, height = 600, font_size = 500, font_color = {0.3125,0.68359375,0.625,1}
         }
         b_plus = {
             click_function = 'increase', function_owner = self, label =  '+1',
-            position = {0.75,0.1,0.26}, width = 150, height = 300, font_size = 100
+            position = {1.75,0.1,0.5}, width = 600, height = 400, font_size = 100, color = {0,0,0,0}
         }
         b_minus = {
             click_function = 'decrease', function_owner = self, label =  '-1',
-            position = {-0.75,0.1,0.26}, width = 150, height = 300, font_size = 100
+            position = {-1.75,0.1,0.5}, width = 600, height = 400, font_size = 100, color = {0,0,0,0}
         }
         b_plus5 = {
             click_function = 'increase5', function_owner = self, label =  '+5',
-            position = {0.75,0.1,-0.29}, width = 150, height = 230, font_size = 100
+            position = {1.75,0.1,-0.5}, width = 600, height = 400, font_size = 100, color = {0,0,0,0}
         }
         b_minus5 = {
             click_function = 'decrease5', function_owner = self, label =  '-5',
-            position = {-0.75,0.1,-0.29}, width = 150, height = 230, font_size = 100
+            position = {-1.75,0.1,-0.5}, width = 600, height = 400, font_size = 100, color = {0,0,0,0}
         }
     end
     
